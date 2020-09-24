@@ -1,11 +1,6 @@
 {
   "store.home": {
-    "blocks": ["rich-text", "text-custom#home"]
-  },
-  "text-custom#home": {
-    "props": {
-      "title": "Olá mundo"
-    }
+    "blocks": ["rich-text","whoami","card-custom#lua-de-mel","card-custom#restaurante","card-custom#viagem"]
   },
   "rich-text": {
     "props": {
@@ -13,6 +8,30 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "font": "t-heading-1"
+    }
+  },
+  "card-custom#lua-de-mel":{
+    "props":{
+      "title":"Lua de mel",
+      "subtitle":"Venha curtir sua lua de mel",
+      "image":"https://i.imgur.com/lq3SeNp.png",
+      "link":"google.com"
+    }
+  },
+  "card-custom#restaurante":{
+    "props":{
+      "title":"Lua de mel",
+      "subtitle":"Venha curtir sua lua de mel",
+      "image":"https://i.imgur.com/lq3SeNp.png",
+      "link":"google.com"
+    }
+  },
+  "card-custom#viagem":{
+    "props":{
+      "title":"Lua de mel",
+      "subtitle":"Venha curtir sua lua de mel",
+      "image":"https://i.imgur.com/lq3SeNp.png",
+      "link":"google.com"
     }
   }
 }

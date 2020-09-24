@@ -7,5 +7,15 @@
       "type": "box",
       "height": 20
     }
+  },
+  "card-custom":{
+    "component":"CardCustom",
+    "compostion": "children",
+    "render": "client"
+  },
+  "whoami":{
+    "component":"Whoami",
+    "compostion": "children",
+    "render": "client"
   }
 }
